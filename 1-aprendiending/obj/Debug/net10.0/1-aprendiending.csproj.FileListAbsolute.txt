@@ -1,0 +1,14 @@
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\bin\Debug\net10.0\1-aprendiending.exe
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\bin\Debug\net10.0\1-aprendiending.deps.json
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\bin\Debug\net10.0\1-aprendiending.runtimeconfig.json
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\bin\Debug\net10.0\1-aprendiending.dll
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\bin\Debug\net10.0\1-aprendiending.pdb
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.AssemblyInfoInputs.cache
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.AssemblyInfo.cs
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.dll
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\refint\1-aprendiending.dll
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.pdb
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\1-aprendiending.genruntimeconfig.cache
+C:\Users\Cristian Cardenas\Desktop\adso\1-aprendiending\obj\Debug\net10.0\ref\1-aprendiending.dll
