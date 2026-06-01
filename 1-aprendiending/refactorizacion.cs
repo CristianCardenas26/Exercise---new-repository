@@ -21,7 +21,7 @@ public class ValidadorPassword
                 }
                 else
                 {
-                    Console.WriteLine("Error: Debe contener un carácter especial.");
+                    Console.WriteLine("Error: Debe contener un carácter especial (@ o #).");
                 }
             }
             else
@@ -222,4 +222,62 @@ public class ServicioAlquiler
 // de calcular el precio del seguro.
 
 // EJERCICIO #5
+
+// en la siguiente funcion, se require verificar que un estuduiante sea aprobado o no dependiendo de su nota final y su porcentaje de asisitencias
+// ademas se requiere otorgar una beca de exelencia a los estudiantes por una nota mayor a 95.
+
+
+
+// public class SistemaEscolar
+// {
+//     public void ProcesarAlumno(string nombre, double notaFinal, double porcentajeAsistencia)
+//     {
+
+//         if (notaFinal >= 60.0 && porcentajeAsistencia >= 85.0)
+//         {
+//             Console.WriteLine($"Alumno {nombre} APROBADO.");
+//             double factorBeca = notaFinal * 0.1;
+//             if (notaFinal >= 95.0 && factorBeca > 9.0)
+//             {
+//                 Console.WriteLine("¡Felicidades! Aplica para Beca de Excelencia.");
+//             }
+//         }
+//         else
+//         {
+//             Console.WriteLine($"Alumno {nombre} REPROBADO por nota o asistencias.");
+//         }
+//     }
+// }
+
+// CODIGO REFACTORIZADO
+
+public class SistemaEscolar
+{
+    public void ProcesarAlumno (String nombre, double NotaFinal, double PorcentajeAsistencia)
+    {
+if (!EsAprobado(NotaFinal, PorcentajeAsistencia))
+        {
+            Console.WriteLine ($"alumno {nombre} REPROBADO por nota o inasistencias.");
+            return;
+        }
+        Console.WriteLine($"Alumno {nombre} APROBADO.");
+        EvaluarBecaDeExelencia(NotaFinal);
+    }
+    pribate bool EsAptoParaAprobar ( double Nota, double PorcentajeAsisitencia)
+    {
+        return Nota >= 60.0 && PorcentajeAsisitencia >= 85.0;
+    }
+    private void EvaluarBecaDeExelencia (double NotaFinal)
+    {
+        double factorBeca = NotaFinal * 0.1;
+        if NotaFinal >= 95.0 && factorBeca > 9.0
+        {
+            Console.WriteLine ("!Felicidades, aplica para la Beca de Exelencia¡");
+        }
+    }
+}
+
+// aqui utilizamos un estract method para separar las responsabilidades, se crearon funciones con nombres especificos y ademas
+// descomponemos el condicional para que la funcion se vea mas ordenada, manejable y facil de entender para proximas modificaciones.
+
 
