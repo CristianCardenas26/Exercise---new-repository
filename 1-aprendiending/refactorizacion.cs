@@ -277,7 +277,6 @@ if (!EsAprobado(NotaFinal, PorcentajeAsistencia))
     }
 }
 
-// aqui utilizamos un estract method para separar las responsabilidades, se crearon funciones con nombres especificos y ademas
-// descomponemos el condicional para que la funcion se vea mas ordenada, manejable y facil de entender para proximas modificaciones.
+
 
 
