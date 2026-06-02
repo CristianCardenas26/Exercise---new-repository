@@ -141,7 +141,7 @@ public class ControlTienda
         private bool EsAptoParaAbrir(string dia, int stock, bool EnMantenimiento)
     {
         bool EsDiaHabil = dia != "Domingo" && dia != "Sabado";
-        bool SuficienteStock = stock <= 15;
+        bool SuficienteStock = stock <= 30;
         bool NoEstaEnMantenimiento = !EnMantenimiento;
         return EsDiaHabil && SuficienteStock && NoEstaEnMantenimiento;
     }
@@ -212,7 +212,7 @@ public class ServicioAlquiler
         public void Rentar (Auto auto, int dias)
       {
         double seguro = auto.CalcularPrecioSeguro();
-        double total = (dias * 50.0) + seguro;    // 50.0 precio base por dia de alquiler
+        double total = (dias * 60.0) + seguro;    // 60.0 precio base por dia de alquiler
         System.Console.WriteLine ("Vehiculo rentado, total a pagar:" + total);
       }
     }
@@ -277,7 +277,6 @@ if (!EsAprobado(NotaFinal, PorcentajeAsistencia))
     }
 }
 
-// aqui utilizamos un estract method para separar las responsabilidades, se crearon funciones con nombres especificos y ademas
-// descomponemos el condicional para que la funcion se vea mas ordenada, manejable y facil de entender para proximas modificaciones.
+
 
 
