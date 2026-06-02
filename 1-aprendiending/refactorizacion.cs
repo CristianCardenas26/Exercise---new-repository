@@ -212,7 +212,7 @@ public class ServicioAlquiler
         public void Rentar (Auto auto, int dias)
       {
         double seguro = auto.CalcularPrecioSeguro();
-        double total = (dias * 50.0) + seguro;    // 50.0 precio base por dia de alquiler
+        double total = (dias * 60.0) + seguro;    // 60.0 precio base por dia de alquiler
         System.Console.WriteLine ("Vehiculo rentado, total a pagar:" + total);
       }
     }
