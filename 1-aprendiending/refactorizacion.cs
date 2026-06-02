@@ -141,7 +141,7 @@ public class ControlTienda
         private bool EsAptoParaAbrir(string dia, int stock, bool EnMantenimiento)
     {
         bool EsDiaHabil = dia != "Domingo" && dia != "Sabado";
-        bool SuficienteStock = stock <= 25;
+        bool SuficienteStock = stock <= 30;
         bool NoEstaEnMantenimiento = !EnMantenimiento;
         return EsDiaHabil && SuficienteStock && NoEstaEnMantenimiento;
     }
